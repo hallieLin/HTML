@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+    <style>
+        .static{
+            border: 3px solid orange;
+            position: static;
+        }
+        .relative{
+            border: 3px solid red;
+            position: relative;
+        }
+        .fixed{
+            border: 2px solid gold;
+            width: 200px;
+            height: 100px;
+            position: fixed;
+            right: 100px;
+            bottom: 100px;
+        }
+        .parant{
+            width: 400px;
+            height: 300px;
+            border: 2px solid blue;
+            position: relative;
+        }
+        .absolute{
+            border: 2px solid gray;
+            width: 150px;
+            height: 100px;
+            position: absolute;
+            top: 50px;
+            right: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div class="static">static</div>
+    <div>relative</div>
+    <div class="fixed">fixed</div>
+    <div class="parant">parent
+        <div class="absolute">Absolute</div>
+    </div>
+</body>
+</html>

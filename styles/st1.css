@@ -1,0 +1,25 @@
+
+        .st1{
+            
+            color: aqua;
+            font-style: italic;
+        }
+        .st2{
+            color: bisque;
+
+        }
+        .under1{
+            text-decoration: line-through;
+            color: rgb(101, 94, 30);
+        }
+        .size1{
+            font-size: medium;
+            
+        }
+        #the3{
+            color: blueviolet;
+        }
+        .font{
+            font-family: 新細明體;
+        }
+    
